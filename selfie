@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>P5.js Test</title>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+<script>
+function setup() {
+createCanvas(600, 600);
+}
+function draw() {
+background(200, 204, 350);
+fill (192, 255, 255);//background circle
+ellipse (300, 350, 550, 550);
+fill (65, 43, 11);//brown hair
+ellipse (300, 350, 400, 500);
+fill (225, 189, 136);//skintone
+ellipse (300, 300, 300, 300);
+fill (255, 255, 255);//big white glassesright
+ellipse (250, 290, 90, 90);//left glasses
+line (295, 290, 315, 290)
+fill (255, 255, 255);//big white glasses right
+ellipse (350, 290, 90, 90);//right glasses
+fill (65, 43, 11);//brown eye left
+ellipse (350, 290, 40, 40); //right eye
+fill (65, 43, 11);//brown eye right
+ellipse (250, 290, 40, 40); // left eye
+fill (255, 255, 255);//big white highlight right
+ellipse (353, 283, 20, 20);
+fill (255, 255, 255);//small white highlight right
+ellipse (345, 299, 10, 10);
+fill (255, 255, 255);//big white highlight left
+ellipse (253, 283, 20, 20);
+fill (255, 255, 255);//small white highlight left
+ellipse (246, 299, 10, 10);
+fill (255, 155, 189);//mouth color pink
+ellipse (300, 370, 100, 40);
+fill (255, 255, 255);//white teeth
+ellipse (300, 360, 80, 20);
+fill (255, 124, 245);//blush pink
+ellipse (230, 320, 40, 30);//blush right
+ellipse (370, 320, 40, 30);//blush right
+fill (65, 43, 11);//brown eye left
+arc(390, 170, 170, 170, QUARTER_PI, PI+QUARTER_PI);
+fill (20, 60, 220);//blue shoulder
+ellipse (300, 600, 300, 300);
+quad(100, 600, 200, 500, 450, 578, 500, 600);
+quad(200, 500, 400, 500, 535, 600, 500, 600);
+}
+</script>
+</head>
+<body>
+<h1>P5.js Demo</h1>
+</body>
+</html> 
